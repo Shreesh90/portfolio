@@ -6,12 +6,15 @@ const experiences = [
     company: "Alteryx",
     period: "Jul 2023 - Present",
     description: [
-      "Delivered multiple Excel ingestion and processing enhancements, resulting in improved data accuracy and strong customer appreciation.",
-      "Implemented asynchronous conversion-service integration with BJR to stabilize local development and testing of workflows. Improved developer productivity.",
-      "Led targeted load testing for file-processing-service. Enabled KEDA autoscaling and tuned CPU/memory settings, improving latency by 20%",
-      "Integrated backend components to support Databricks SQL in Live Query mode, that contributed to having Databricks as happy customers. Won Quality, Scalability and Performance award.",
-      "Added Job History support in job-planning-layer, integrating Kafka into the workflow to enable event-driven job tracking",
-      "Participated multiple times in Innovation Days. Prototyped Transactional Query Support for file using DuckLake and created a dataset-as-DataFrame solution in Jupyter notebook."
+      "Owned the conversion engine executing in multi-tenant Kubernetes warm pods in the data plane, and worked on the control plane service that dispatches to them.",
+      "Built RESTful microservice for a distributed system and led load testing to improve scalability. Enabled KEDA autoscaling and tuned CPU/memory settings. Reduced p99 latency by 20%",
+      "Led the migration of a critical service from user-based identities to service principal authentication, eliminating user dependency, improving security and reliability.",
+      "Integrated conversion-service to work asynchronously with an Orchestrator service to stabilize local development and testing of workflows. Accelerated developer productivity.",
+      "Led Root Cause Analysis discussions by analyzing Datadog logs, identifying recurring production issues, and driving fixes that improved service SLO from 98% to 99.9%+.",
+      "Added Job History support in Job Planning Layer, integrating Kafka into the workflow to enable event-driven job tracking.",
+      "Prototyped Transactional Query Support using DuckLake and created a dataset-as-DataFrame solution in Jupyter notebook. Demoed to 200+ engineers and product managers.",
+      "Acted as Designated Responsible Individual during on-call rotations while mentoring 4 junior Interns/SDE and leading knowledge-transfer sessions",
+      "Received the Quality, Scalability and Performance Award for delivering a high-impact Innovation Days project."
     ],
   },
   {
@@ -19,9 +22,9 @@ const experiences = [
     company: "Alteryx",
     period: "Jan 2023 - June 2023",
     description: [
-      "Performed POC comparing ApachePOI and FastExcel to determine preferred approach for Excel write throughput and memory behavior",
-      "Implemented backend conversion logic to export dataset to Excel using ApachePOI, enabling customers to download data in Excel formats",
-      "Contributed frontend changes and authored TypeScript unit tests to validate end-to-end Excel export functionality."
+      "Performed POC comparing ApachePOI and FastExcel across 2 key metrics (features, write throughput) to determine preferred approach for Excel write.",
+      "Implemented backend conversion logic to export dataset to Excel using ApachePOI, enabling customers to download data with 1 million+ rows in Excel formats.",
+      "Took ownership of frontend changes and authored 20+ TypeScript unit tests to validate end-to-end Excel export functionality"
     ],
   },
 ];

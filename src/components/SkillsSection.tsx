@@ -4,19 +4,19 @@ import { useState } from "react";
 const skillCategories = [
   {
     category: "Languages",
-    skills: ["C++", "Java"],
-  },
-  {
-    category: "Frontend",
-    skills: ["React", "JS"],
+    skills: ["C++", "Java", "JavaScript", "Python",],
   },
   {
     category: "Backend",
-    skills: ["Node.js", "PostgreSQL", "Redis", "Docker"],
+    skills: ["SpringBoot", "REST API", "Microservice", "Kafka", "Git", "CI/CD"],
+  },
+   {
+    category: "Cloud",
+    skills: ["Docker", "Kubernetes", "Workload Identity", "AWS IRSA", "OIDC", "Datadog", "ArgoCD"],
   },
   {
-    category: "Tools",
-    skills: ["Git", "CI/CD", "AWS", "Terraform", "Figma"],
+    category: "Databases",
+    skills: ["PostgreSQL"],
   },
 ];
 

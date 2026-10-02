@@ -24,11 +24,11 @@ const Index = () => {
             Shreesh Swaraj
           </h1>
           <p className="text-muted-foreground mt-3 max-w-lg leading-relaxed">
-            Backend-focused Software Engineer with 3+ years of experience building data ingestion and processing platform services.
+            Backend focussed software engineer specializing in distributed systems, microservices, and data processing platforms. Experience in designing scalable backend services, building REST APIs, implementing asynchronous workflows. Take ownership of features end to end, optimizing system performance, and building reliable, high-impact software.
           </p>
           <div className="flex gap-4 mt-5">
             <a
-              href="https://github.com"
+              href="https://github.com/Shreesh90"
               target="https://github.com/Shreesh90"
               rel="noopener noreferrer"
               className="font-mono text-xs text-muted-foreground hover:text-foreground transition-colors"
@@ -36,7 +36,7 @@ const Index = () => {
               github
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/shreeswa/"
               target="https://www.linkedin.com/in/shreeswa/"
               rel="noopener noreferrer"
               className="font-mono text-xs text-muted-foreground hover:text-foreground transition-colors"
@@ -50,7 +50,7 @@ const Index = () => {
               email
             </a>
             <a
-              href="https://leetcode.com"
+              href="https://leetcode.com/u/raj2544/"
               target="https://leetcode.com/u/raj2544/"
               rel="noopener noreferrer"
               className="font-mono text-xs text-muted-foreground hover:text-foreground transition-colors"
